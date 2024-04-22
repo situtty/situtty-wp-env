@@ -1,0 +1,17 @@
+# Apache
+.htaccess
+.htpasswd
+
+# WordPress
+wp-config.php
+wp-content/plugins/
+# wp-content/themes/
+# wp-content/uploads/
+
+# Node.js
+node_modules/
+
+# Other unneeded files
+.project
+.DS_Store
+

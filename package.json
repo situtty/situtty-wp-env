@@ -1,0 +1,21 @@
+{
+  "name": "wp-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "wp-env start",
+    "update": "wp-env start --update",
+    "stop": "wp-env stop",
+    "destroy": "wp-env stop && wp-env destroy",
+    "import": "wp-env run cli wp db import sql/db.sql",
+    "export": "wp-env run cli wp db export sql/db.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^9.8.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "core": "https://ja.wordpress.org/latest-ja.zip",
+  "phpVersion": null,
+  "themes": [],
+  "plugins": ["https://downloads.wordpress.org/plugin/wp-multibyte-patch.zip"],
+  "mappings": {
+    "wp-content/themes/": "./wp-content/themes/",
+    "wp-content/plugins/": "./wp-content/plugins/",
+    "wp-content/uploads/": "./wp-content/uploads/",
+    "sql": "./sql"
+  }
+}
